@@ -1,0 +1,10 @@
+com\formation\data\entity\CustomerEntity.class
+com\formation\web\controller\ControllerUtils.class
+com\formation\web\controller\CustomerController.class
+com\formation\web\error\NotFoundException.class
+com\formation\Application.class
+com\formation\web\model\Customer.class
+com\formation\data\repository\CustomerRepository.class
+com\formation\web\error\BadRequestException.class
+com\formation\web\error\ConflictException.class
+com\formation\service\CustomerService.class

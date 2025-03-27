@@ -25,6 +25,11 @@ public class CustomerController {
     this.customerService = customerService;
   }
 
+  @GetMapping("hello")
+  public String hello(){
+    return "Hello World";
+  }
+
   @GetMapping
   public List<Customer> getCustomers(){
     return this.customerService.getAllCustomers();
